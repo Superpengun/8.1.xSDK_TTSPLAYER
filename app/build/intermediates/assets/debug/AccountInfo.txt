@@ -13,5 +13,5 @@ developerKey=8b9dd4f8f82e0862a86fb0595c31af34
 cloudUrl=api.hcicloud.com:8888
 
 #需要运行的灵云能力
-capKey=tts.cloud.xiaokun
+capKey=tts.local.synth
 
