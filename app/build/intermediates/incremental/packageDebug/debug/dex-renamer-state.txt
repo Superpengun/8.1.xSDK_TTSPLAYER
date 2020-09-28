@@ -1,0 +1,4 @@
+#Mon Sep 28 16:28:13 CST 2020
+base.0=E\:\\Projectplace\\813\\hcicloudsdk-tts-android-8.1.5.39686.rc2\\TTS_Player_Example\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

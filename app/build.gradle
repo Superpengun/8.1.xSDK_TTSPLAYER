@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.sinovoice.example.ttsplayer"
+        minSdkVersion 15
+        targetSdkVersion 17
+        packagingOptions {
+            doNotStrip "*/armeabi/*.so"
+            doNotStrip "*/armeabi-v7a/*.so"
+            doNotStrip "*/arm64-v8a/*.so"
+            // add other if needed
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/hcicloud-8.1.jar')
+    compile files('libs/hcicloud_player-8.1.jar')
+}

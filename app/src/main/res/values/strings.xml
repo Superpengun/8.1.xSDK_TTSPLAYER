@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TTSPlayer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tts_text">欢迎使用灵云语音合成技术，可将文本实时、准确地转换为自然、流畅的语音，提供男声、女声、童声、情感等多种合成音色</string>
+
+</resources>
